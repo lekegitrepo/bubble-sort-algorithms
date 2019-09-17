@@ -1,3 +1,4 @@
+rubocop -a
 def bubble_sort(values)
 	 l = values.length
   loop do
