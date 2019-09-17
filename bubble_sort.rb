@@ -1,5 +1,4 @@
-# frozen_string_literal: true 
-#rubocop -a
+# frozen_string_literal: true
 def bubble_sort(values)
 	 l = values.length
   loop do
@@ -14,7 +13,4 @@ def bubble_sort(values)
   end
   values
 end
-
-arr = [3, 2, 6, 2, 1, 6, 0, 16]
-p bubble_sort(arr)
 
