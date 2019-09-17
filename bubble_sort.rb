@@ -1,5 +1,5 @@
 def bubble_sort(values)
-	l = values.length
+	 l = values.length
   loop do
   	swapped = false
   	(l-1).times do |i|
