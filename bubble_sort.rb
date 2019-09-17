@@ -1,4 +1,5 @@
-rubocop -a
+# frozen_string_literal: true 
+#rubocop -a
 def bubble_sort(values)
 	 l = values.length
   loop do
