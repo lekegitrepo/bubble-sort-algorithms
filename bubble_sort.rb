@@ -27,9 +27,5 @@ def bubble_sort_by(arr)
     end
     break unless swapped
   end
-  p arr
-end
-
-bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
+  arr
 end
